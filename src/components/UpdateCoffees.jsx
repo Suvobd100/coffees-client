@@ -63,13 +63,13 @@ const UpdateCoffees = () => {
   return (
     <div className="card bg-base-100 w-full max-w-2/3 mx-auto shrink-0 shadow-2xl p-4 mt-6">
       <div className="mt-6">
-        <h2 className="text-center text-4xl font-bold">Edit Coffee</h2>
-        <p className="text-center p-4 text-stone-500">
+        <h2 className="text-center text-4xl font-bold">Update Coffee Information</h2>
+        {/* <p className="text-center p-4 text-stone-500">
           It is a long established fact that a reader will be distraceted by the
           readable content of a page when looking at its layout. The point of
           using Lorem Ipsum is that it has a more-or-less normal distribution of
           letters, as opposed to using Content here.
-        </p>
+        </p> */}
       </div>
       <form className="card-body" onSubmit={handleUpdateCoffee}>
         {/* coffee name & chef name */}
